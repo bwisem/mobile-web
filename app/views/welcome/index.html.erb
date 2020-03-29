@@ -1,15 +1,31 @@
-<h2>Hello World</h2>
+<h2>Mobile Web App</h2>
 <p>
   The time is now: <%= Time.now %>
 </p>
 
-<a href="intent:#Intent;
-    action=com.squareup.pos.action.CHARGE;
-    package=com.squareup;
-    S.com.squareup.pos.WEB_CALLBACK_URI=https://immense-earth-23649.herokuapp.com/;
-    S.com.squareup.pos.CLIENT_ID=sq0idp-K-i6--d9HD4fha58YpSS6w;
-    S.com.squareup.pos.API_VERSION=v2.0;
-    i.com.squareup.pos.TOTAL_AMOUNT=100;
-    S.com.squareup.pos.CURRENCY_CODE=USD;
-    S.com.squareup.pos.TENDER_TYPES=com.squareup.pos.TENDER_CARD;
-    end">Start Transaction</a>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <a href="intent:#Intent;
+        action=com.squareup.pos.action.CHARGE;
+        package=com.squareup;
+        S.com.squareup.pos.WEB_CALLBACK_URI=https://immense-earth-23649.herokuapp.com/;
+        S.com.squareup.pos.CLIENT_ID=sq0idp-K-i6--d9HD4fha58YpSS6w;
+        S.com.squareup.pos.API_VERSION=v2.0;
+        i.com.squareup.pos.TOTAL_AMOUNT=100;
+        S.com.squareup.pos.CURRENCY_CODE=USD;
+        S.com.squareup.pos.TENDER_TYPES=com.squareup.pos.TENDER_CARD;
+        end">Start Transaction</a>
+
+        <button onclick="open_pos.js">
+        Start Transaction
+        </button>
+
+  </body>
+
+
+</html>
